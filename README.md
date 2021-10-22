@@ -49,8 +49,14 @@ d) You can now login by simply typing:
 ssh aauStrato
 ```
 
-## 3. Transferring files to/from instance
+## 3. Sourcing OpenFOAM and starting headless ParaView server
+a) If you started your instance based on the OpenFOAM image in step 1, you have to source your preferred OpenFOAM version. You will be greeted with a message showing which versions of OpenFOAM are available. To source OpenFOAM v2106 simply type``of2106``.
+
+b) To start the headless ParaView server simply type ``pvserver``. The server is now listening for connections. In ParaView client you can now connect using 
+
+
+## 4. Transferring files to/from instance
 Files to/from the OpenStack instance are transferred by a ftp client. I suggest installing [FileZilla](https://filezilla-project.org/), which is free and avialable on Windows/macOS and most Linux systems.
 
-## 4. Connecting to ParaView running on the instance
+## 5. Connecting to ParaView running on the instance
 If you use the pre-installed OpenFOAM image, it already comes with a headless Paraview version installed and running. To connect you will need the instance IP adress:
