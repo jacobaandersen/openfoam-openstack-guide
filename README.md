@@ -50,7 +50,7 @@ ssh aauStrato
 ```
 
 ## 3. Sourcing OpenFOAM and starting headless ParaView server
-a) If you started your instance based on the OpenFOAM image in step 1, you have to source your preferred OpenFOAM version. You will be greeted with a message showing which versions of OpenFOAM are available. To source OpenFOAM v2106 simply type``of2106``.
+a) If you started your instance based on the OpenFOAM image in step 1, you have to source your preferred OpenFOAM version. You will be greeted with a message showing which versions of OpenFOAM are available. To source OpenFOAM v2106 simply type ``of2106``.
 
 b) To start the headless ParaView server simply type ``pvserver``. The server is now listening for connections. In ParaView client you can now connect using 
 
