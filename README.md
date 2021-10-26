@@ -54,6 +54,7 @@ a) If you started your instance based on the OpenFOAM image in step 1, you have 
 
 b) To start the headless ParaView server simply type ``pvserver``. The server is now listening for connections. In ParaView client you can now connect using 
 
+c) GPU
 
 ## 4. Transferring files to/from instance
 Files to/from the OpenStack instance are transferred by a ftp client. I suggest installing [FileZilla](https://filezilla-project.org/), which is free and avialable on Windows/macOS and most Linux systems.
